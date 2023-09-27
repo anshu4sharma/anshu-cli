@@ -24,7 +24,7 @@ express: The project type you want to create (e.g., "express" in this example).
 To create a new Express.js project called "my-express-app," you would run:
 
 ```bash
-my-cli-tool create express my-express-app ```
+anshu create express my-express-app ```
 
 ## Using npx
 If you prefer not to install anshu globally, you can also use it with npx. Here's how you can create a new Express.js project called "my-express-app" using npx:
