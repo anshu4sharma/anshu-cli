@@ -1,6 +1,6 @@
 {
   "name": "anshu",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Express.js & typescript template creator cli app for time saving.",
   "main": "index.js",
   "scripts": {

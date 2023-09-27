@@ -11,8 +11,7 @@ program
 program
   .command("create express <project-name>")
   .description("Create a new project")
-  .action((projectName) => {
-    console.log(projectName);
+  .action((_,projectName) => {
     // Define the path to your template project
     const templatePath = path.join(__dirname, "node-typescript-template");
     // Define the path to the new project using the current working directory
