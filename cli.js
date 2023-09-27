@@ -15,8 +15,8 @@ program
     console.log(projectName);
     // Define the path to your template project
     const templatePath = path.join(__dirname, "node-typescript-template");
-    // Define the path to the new project
-    const projectPath = path.join(__dirname, projectName);
+    // Define the path to the new project using the current working directory
+    const projectPath = path.join(process.cwd(), projectName);
     // Copy the template project to the new project location
     fs.copySync(templatePath, projectPath);
     // Optionally, you can perform additional setup here, like installing dependencies.
