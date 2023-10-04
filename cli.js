@@ -9,7 +9,7 @@ program
   .description("Create a new project using my TypeScript template");
 
 program
-  .command("create express <project-name>")
+  .command("<project-name>")
   .description("Create a new project")
   .action((_,projectName) => {
     // Define the path to your template project
