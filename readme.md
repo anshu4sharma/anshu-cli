@@ -15,7 +15,7 @@ npm install -g anshu
 
 Once you have My CLI Tool installed, you can use it to create a new project. Here's the basic syntax:
 ```bash
-anshu <project-name>
+anshu create <project-name>
 
 express: The project type you want to create (e.g., "express" in this example).
 <project-name>: The name you want to give to your new project.
@@ -24,11 +24,11 @@ express: The project type you want to create (e.g., "express" in this example).
 To create a new Express.js project called "my-express-app," you would run:
 
 ```bash
-anshu my-express-app ```
+anshu create my-express-app ```
 
 ## Using npx
 If you prefer not to install anshu globally, you can also use it with npx. Here's how you can create a new Express.js project called "my-express-app" using npx:
 
 ```bash
-npx anshu my-express-app
+npx anshu create my-express-app
 #

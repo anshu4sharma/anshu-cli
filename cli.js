@@ -9,9 +9,9 @@ program
   .description("Create a new project using my TypeScript template");
 
 program
-  .command("<project-name>")
+  .command("create <project-name>")
   .description("Create a new project")
-  .action((_,projectName) => {
+  .action((projectName) => {
     // Define the path to your template project
     const templatePath = path.join(__dirname, "node-typescript-template");
     // Define the path to the new project using the current working directory
