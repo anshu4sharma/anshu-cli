@@ -1,6 +1,6 @@
 # anshu
 
-anshu is a Node.js-based command-line interface for creating new projects using a TypeScript template. It simplifies the process of setting up new projects with a predefined project structure and dependencies.
+anshu is a Node.js-based command-line interface for creating new projects using express js and TypeScript. It simplifies the process of setting up new projects with a predefined project structure and dependencies.
 
 ## Installation
 
